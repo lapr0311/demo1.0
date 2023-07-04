@@ -3,6 +3,8 @@
 const btnLanazarModal = document.querySelectorAll("[data-open]");
 const isVisible = "is-visible";
 const btnOculatarModal = document.querySelector('#oculatr-modal');
+const btnCerrar = document.getElementById('btnCerrar');
+
 
  const contModal = document.querySelector('.contenedor-modal');
 // const seleccion = await obtenerInput('Ingrese el tipo de cuerpo (Skinny, Normal, Holgado): ');
@@ -21,6 +23,13 @@ for(const el of btnLanazarModal) {
       document.getElementById(modalId).classList.add(isVisible);
     });
   }
+
+  btnCerrar.addEventListener('click', () => {
+    const modal = document.getElementById('modal1');
+  modal.style.display = 'none';
+
+    console.log('Se ha hecho clic en el botón cerrar.');
+  });
 
 
   function obtenerTalla() {
