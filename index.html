@@ -170,40 +170,73 @@
 
   <div class="contenedor-modal" id="modal1">
     <div class="modal">
-      <img src="" alt="">
+      
 
 
-      <form class="row g-3 needs-validation" novalidate>
+
+
+
+      <div class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Encuentra tu talla</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <label for="busto">Busto (cm):</label>
+              <input type="number" id="busto">
+              <br>
+              <label for="cintura">Cintura (cm):</label>
+              <input type="number" id="cintura">
+              <br>
+              <label for="cadera">Cadera (cm):</label>
+              <input type="number" id="cadera">
+              <br>
+
+              <p id="resultado"></p>
+             
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button onclick="obtenerTalla()">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-5">
           <label for="busto">Busto (cm):</label>
           <input type="number" id="busto">
-          <br>
+          <br> -->
           <!-- <label for="peso" class="form-label">PESO</label>
           <input type="number" class="form-control" id="peso" value="Kg" required /> -->
-          <div class="valid-feedback">
+          <!-- <div class="valid-feedback">
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <label for="cintura">Cintura (cm):</label>
           <input type="number" id="cintura">
-          <br>
+          <br> -->
           <!-- <label for="estatura" class="form-label">Estatura</label>
           <input type="text" class="form-control" id="estatura" value="mt" required />
           -->
-        </div>
+        <!-- </div> -->
 
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
           <label for="cadera">Cadera (cm):</label>
           <input type="number" id="cadera">
-          <br>
+          <br> -->
           <!-- <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
             <option selected>Sexo</option>
             <option value="1">Hombre</option>
             <option value="2">Mujer</option>
 
           </select> -->
-        </div>
+        <!-- </div> -->
 
         <!-- <div class="col-md-4">
           <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
@@ -216,13 +249,13 @@
         </div> -->
 
 
-        <p id="resultado"></p>
+        <!-- <p id="resultado"></p>
 
 
         <div class="col-12">
           <button  onclick="obtenerTalla()">Enviar</button>
         </div>
-      </form>
+      </form> -->
     </div>
   </div>
 
