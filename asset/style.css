@@ -234,11 +234,10 @@ header{
 .contenedor-modal .modal{
     width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 200px;
-    padding: 50px;
+    margin:100  0 200px;
+    padding: 150px;
     background-color: #fff;
     opacity: 1;
 }
