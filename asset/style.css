@@ -257,27 +257,7 @@ header{
 
 }
 
-.presentaciom-inicio{
-    /* margin-bottom: 400px; */
-}
 
-
-
-/* form{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-} 
-body {
-    font-family: 'DM Sans', sans-serif;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 /* Si en algún momento quieren dejar de usar el calipso como color principal, solo lo tienen que cambiar aquí una vez y se actualizará en todo el sitio */
 
@@ -731,7 +711,7 @@ article{
   float:right !important;
 }
 
-@media (min-width: 764px) {  
+@media (min-width: 768px) {  
     
     .botones__container{
     height:400px;
