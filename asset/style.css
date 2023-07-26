@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
 }
   
   .navar .logo {
@@ -10,12 +11,7 @@
   }
  
   
-body{
-    margin: 0 auto;
-    max-width: 1200px;
-    font-family: 'Lato';
-    color: #333;
-}
+
 
 .icon-cart{
     width: 40px;
@@ -242,7 +238,28 @@ header{
     opacity: 1;
 }
 
+.imig{
+   height: 500px;
+   width: 500px;
+  
+   
 
+}
+
+
+
+.titulo{
+
+  
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 200px;
+
+}
+
+.presentaciom-inicio{
+    /* margin-bottom: 400px; */
+}
 
 
 
@@ -252,4 +269,540 @@ header{
     justify-content: center;
     
 } 
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Si en algún momento quieren dejar de usar el calipso como color principal, solo lo tienen que cambiar aquí una vez y se actualizará en todo el sitio */
+
+:root{
+    --color-acento: #8CD7D7;
+}
+
+/*------ Estilos Nav ------*/
+
+.allegory-nav__container{
+    width: 100%;
+    height: 7rem !important;
+    display: flex;
+    padding: 15px 30px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #5F5F5F;
+    justify-content: space-between;
+}
+
+.allegory-nav__logo{
+    display: flex;
+    justify-content: center;
+}
+
+.allegory-nav__logo img{
+    height: 50px;
+    width:auto;
+}
+
+.allegory-nav__logo a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-calipso{
+    background-color: var( --color-acento);
+    height:50px;
+    border-radius:50px;
+    font-weight:700;
+    padding-left: 40px;
+    padding-right:40px;
+}
+
+
+.allegory-nav__links--left ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.allegory-nav__links--left > a{
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    font-weight: 500;
+    color: #000;
+    font-size: 14.5px;
+}
+
+.allegory-nav__links--left > a:hover{
+    color: var( --color-acento);
+    cursor: pointer;
+}
+
+
+/*--------Estilos Footer ----------------*/
+
+
+/* íconos redes sociales */
+
+.fa-instagram{
+    color:#282828 !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+
+}
+
+.allegory-nav__links--right > a{ 
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    font-weight: 500;
+    color: #000;
+    font-size: 14.5px;
+}
+
+.allegory-nav__links--right > a:hover{
+    cursor: pointer;
+}
+
+.allegory-footer__container{
+    height: 8rem;
+    display: flex;
+    padding: 15px 30px;
+    border-top: 1px solid #5F5F5F;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.allegory-footer__logo{
+    height:35px;
+    width:auto;
+}
+
+
+.allegory-footer__link{
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none !important;
+    padding: 0px 10px 0px 10px;
+    font-weight: 500;
+    color: #000;
+    font-size: 14.5px;
+    text-decoration: none;
+}
+
+.allegory-footer__link:hover{
+    color: var(--color-acento);
+    cursor: pointer;
+}
+
+/*------ Estilos HERO SECTION ----------------*/
+
+.allegory-hero__container{
+    padding-top: 5.5rem;
+    background-image: url('../img/hero.jpg');
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.allegory-hero__content{
+    padding: 70px 40px;
+}
+
+.allegory-hero__content--title{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: normal;
+}
+
+.allegory-hero__content--p{
+    width: 600px;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+    font-size: 13.5px;
+    margin-top: 20px;
+    padding:0;
+}
+
+.allegory-hero__content--button{
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    padding: 16px 40px;
+    border-radius: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.allegory-hero__content--button:hover{
+    background-color: var( --color-acento);
+    cursor: pointer;
+}
+
+.allegory-hero__content--button:active{
+    background-color: #000;
+    cursor: pointer;
+}
+
+
+/*-------------------- ESTILOS PÁGINAS INTERNAS----------------------*/
+
+/* Título y contenidos */
+
+.allegory-page__container--title{
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+    margin: 2%;
+}
+
+.allegory-page__content--p{
+    font-family: 'DM Sans', sans-serif !important;
+    padding:15px;
+}
+
+
+/*--------- Estilo BUSCADOR.HTML ------------- */
+
+
+/* Estilo botones obscuros y bordes redondos SIGUIENTE y BUSCAR */
+
+.btn-dark{
+    background-color: #282828;
+    padding: 10px 30px 10px 30px; 
+    border-radius:50px;
+    font-weight:700;
+}
+
+/* Estilos de la sección completa */
+
+.project-tab{
+    width:100% !important;
+    margin:0 !important;
+    padding: 0 !important;
+}
+
+
+.nav-tabs {
+    padding-top: 15px;
+}
+
+.project-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+
+/*  Estilos del encabezado de las pestañas */
+
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #282828;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid var( --color-acento) !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.nav-link.active{
+    padding-bottom:20px;
+}
+
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    color:#282828;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center !important;
+}
+
+.project-tab .nav-link:hover {
+    border: none;
+}
+
+.project-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.tab-content{
+    padding: 0 80px 0 80px;
+}
+
+
+/* OPCIONES PESTAÑA PRODUCTOS */
+
+.buscador__productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.button-buscador__productos--button{
+    width: 90px;
+    height: 90px;
+    background-color: var( --color-acento);
+    color: #282828;
+    border: 1.3px solid white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.button-buscador__productos--button:hover{
+    background-color: #282828;
+    color: #fff;
+    border: 1.3px solid #282828;
+    cursor: pointer;
+}
+
+.button-buscador__productos--svg{
+    width: 60px;
+    height: 60px;
+}
+
+.button-buscador__productos--svg:hover{
+    cursor: pointer;
+	filter: invert(1) ;
+}
+
+.button-buscador__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0px 5px 0px;
+    margin: 15px;
+}
+
+
+small{
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Estilos OPCIONES DEMÁS PESTAÑAS */
+.botonera-opciones button{
+    border-radius: 10px;
+    text-align: center;
+    width:180px;
+    height:80px;
+    margin:15px;
+    background-color: var( --color-acento);
+}
+
+.botonera-opciones p{
+    margin-bottom: 0 !important;
+    font-weight: 700;
+}
+
+.btn-outline-dark{
+    border-color: transparent;
+}
+
+
+/* Estilos botones tipo cuerpo */
+.tipo-cuerpo__btn{
+    color: #282828;
+    border: 1.3px solid #282828;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    margin: 1.5rem;
+}
+
+.tipo-cuerpo__container{
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  padding: 20px;
+}
+
+.tipo--cuerpo--btn--container p{
+    font-weight:700;
+}
+
+
+
+/* Estilos de card generales */
+
+.card{
+    box-sizing:border-box;
+    padding:30px;
+    border: 0cm;
+}
+
+/* -------- Estilos específicos para Blog ------------ */
+
+.card-blog{
+    background-color: #fdfdfd;
+}
+.card-link{
+    font-family: 'DM Sans', sans-serif !important;
+    text-decoration: none;
+    color: #282828;
+    text-align: right;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-link:hover{
+    color: #2ab7ca;
+    cursor: pointer;
+}
+
+.blog__titulo{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600 !important;
+    font-size: 26px !important; 
+}
+
+.blog__p{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+}
+
+/* Estilos específicos para página de Resultados */
+
+.cabecera{
+    padding-top:30px;
+}
+
+article{
+    font-weight:400;
+    color: #605F5F;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size:14px;
+    padding-bottom: 0 !important;
+}
+
+.btn-ordenar-productos{
+    color: #605F5F;
+}
+
+.resultados-card__body{
+    padding: 20px 0 20px 0;
+}
+
+.resultados-card__title{
+    font-weight:700;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.resultados-card__text{
+ font-weight: 400;
+}
+
+.resultados-card__match{
+    font-weight:700;
+    padding: 10px 0 10px 0;
+}
+
+.badge-dark{
+    border-radius: 15px;
+    background-color: #282828;
+}
+
+
+.precio{
+  float:right !important;
+}
+
+@media (min-width: 764px) {  
+    
+    .botones__container{
+    height:400px;
+}
+
+}
+
+
+@media (max-width: 568px) { 
+
+    .allegory-nav__container{
+        width: 100%;
+        height: 8rem !important;
+        /*position: fixed;*/
+        display: flex;
+        padding: 15px 30px;
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #5F5F5F;
+        justify-content: space-between;
+    }
+
+
+    .buscador__productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+    
+ }
+
+.allegory-nav__links__feedback{
+    display: none;
+}
+
+.btn-calipso{
+    display:none;
+}
+
+.allegory-nav__links--right>a{
+    padding: 5px;
+}
+
+.allegory-hero__content{
+    padding-top:0;
+}
+
+.allegory-hero__container{
+    padding-top:30px;
+}
+
+.allegory-hero__content--title{
+    font-size: 30px;
+}
+
+.allegory-hero__content--p{
+    display:none;
+}
+
+.tipo-cuerpo__container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+  }
+
+  .botonera-opciones{
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+
 

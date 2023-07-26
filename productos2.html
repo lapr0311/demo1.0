@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;700&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  
+    <!--Mi estilo-->
+    <link rel="stylesheet" href="./asset/style.css">
+  
+  
+    <title>Allegory</title>
+  
+</head>
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light allegory-nav__container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse allegory-nav__links col-3" id="navbarNav">
+
+            <div class="allegory-nav__links--left">
+                <a href="./index.html">Inicio</a>
+                <a href="./productos2.html">Buscador</a>
+                <a href="./Quienes-somos.html">Nosotras</a>
+                <a href="blog.html">Blog</a>
+            </div>
+        </div>
+        <div class="col-6 allegory-nav__logo">
+            <a href="index.html"> <img src="assets/img/logo_nav-01.svg" alt=""> </a>
+        </div>
+        <div class="col-3">
+            <div class="text-right">
+                <a href=""> <button type="button" class="btn btn-calipso">
+                        Suscríbete </button> </a>
+            </div>
+        </div>
+    </nav>
+
+    
+      <!-- Inicio sección de tabs -->
+    
+      <section id="tabs">
+        <div class="container-fluid project-tab">
+          <div class="row">
+            <div class="col-12">
+              <nav>
+                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Productos</a>
+                  <a class="nav-item nav-link disabled" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Estilo</a>
+                  <a class="nav-item nav-link disabled" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Colorimetría</a>
+                  <a class="nav-item nav-link disabled" id="nav-cuerpo-tab" data-toggle="tab" href="#nav-cuerpo" role="tab" aria-controls="nav-cuerpo" aria-selected="false">Tipo de cuerpo</a>
+                  <a class="nav-item nav-link disabled" id="nav-ocasion-tab" data-toggle="tab" href="#nav-ocasion" role="tab" aria-controls="nav-ocasion" aria-selected="false">Ocasión</a>
+                  <a class="nav-item nav-link disabled" id="nav-actividad-tab" data-toggle="tab" href="#nav-actividad" role="tab" aria-controls="nav-actividad" aria-selected="false">Etapa</a>
+    
+                </div>
+    
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+    
+                <!-- Contenido tab PRODUCTOS -->
+                <div class="tab-pane active show fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab ">
+                  <div class="mt-5 mb-5">
+                    <h2 class="mb-3">Productos</h2>
+                    <p> Tenemos un amplio catálogo de productos. Por favor escoge uno del listado a continuación: </p>
+                  </div>
+    
+    
+                  <div>
+    
+                    <div class="buscador__productos">
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/anteojos.svg" alt="">
+                        </button>
+                        <small>Anteojos</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/bikini.svg" alt="">
+                        </button>
+                        <small>Bikini</small>
+                      </div>
+    
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/blazer.svg" alt="">
+                        </button>
+                        <small>Blazer</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/blusa.svg" alt="">
+                        </button>
+                        <small>Blusa</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/bolso.svg" alt="">
+                        </button>
+                        <small>Bolso</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/botas.svg" alt="">
+                        </button>
+                        <small>Botas</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/botines.svg" alt="">
+                        </button>
+                        <small>Botines</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/bufanda.svg" alt="">
+                        </button>
+                        <small>Bufanda</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/camisa.svg" alt="">
+                        </button>
+                        <small>Camisa</small>
+                      </div>
+    
+                      
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/chaqueta.svg" alt="">
+                        </button>
+                        <small>Chaqueta</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/cinturon.svg" alt="">
+                        </button>
+                        <small>Cinturón</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/collar.svg" alt="">
+                        </button>
+                        <small>Collar</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/falda.svg" alt="">
+                        </button>
+                        <small>Falda</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/jeans.svg" alt="">
+                        </button>
+                        <small>Jeans</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/jockey.svg" alt="">
+                        </button>
+                        <small>Jockey</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/lentes.svg" alt="">
+                        </button>
+                        <small>Lentes</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/pack.svg" alt="">
+                        </button>
+                        <small>Pack</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/pantalon.svg" alt="">
+                        </button>
+                        <small>pantalón</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/panuelo.svg" alt="">
+                        </button>
+                        <small>Pañuelo</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/pendientes.svg" alt="">
+                        </button>
+                        <small>Pendientes</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/polera.svg" alt="">
+                        </button>
+                        <small>Polera</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/sandalias.svg" alt="">
+                        </button>
+                        <small>Sandalias</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/top.svg" alt="">
+                        </button>
+                        <small>Top</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/vestido.svg" alt="">
+                        </button>
+                        <small>Vestido</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/zapatillas.svg" alt="">
+                        </button>
+                        <small>Zapatillas</small>
+                      </div>
+    
+                      <div class="button-buscador__container">
+                        <button class="button-buscador__productos--button">
+                          <img class="button-buscador__productos--svg" src="./asset/img/zapatos.svg" alt="">
+                        </button>
+                        <small>Zapatos</small>
+                      </div>
+    
+    
+    
+    
+                      <!-- Botón siguiente pestaña -->
+    
+                      <div class="col-12 text-center my-5">
+                        <a href="#nav-profile" class="tab-links"> <button type="button" class="btn btn-dark px-5 py-3 ir-estilo">
+                            Siguiente </button> </a>
+                      </div>
+                    </div>
+                  </div>
+    
+                </div>
+    
+                <!-- Pestaña 2: ESTILO -->
+    
+                <div class="tab-pane disabled fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+    
+    
+                  <div class="mt-5 mb-5">
+                    <h2 class="mb-3">Estilo</h2>
+                    <p> Existen muchos estilos o maneras de vestirse que dependen de la edad, cultura, actividad laboral o
+                      simplemente de nuestros gustos personales. Escoge el tuyo: </p>
+                  </div>
+    
+                  <section class="botones__container">
+                    <div class="row botonera-opciones">
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Bohemio</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Chic Urbano</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Clásico</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Creativo</p>
+                      </button>
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Dramático</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Natural</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Romántico</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Seductor</p>
+                      </button>
+                    </div>
+                  </section>
+    
+                  <div class="row">
+                    <div class="mx-auto"> <a href="#nav-contact" class="tab-links"> <button type="button" class="btn btn-dark px-5 py-3 m-5 ir-colorimetria">
+                          Siguiente </button> </a> </div>
+                  </div>
+    
+    
+                </div>
+    
+    
+    
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+    
+                  <div class="mt-5 mb-5">
+                    <h2 class="mb-3">Colorimetría</h2>
+                    <p> ¿Qué es la Colorimetría? Es el estudio basado en la Teoría del Color según las características
+                      físicas de las personas. El color aplicado a las personas según sus ojos, cabello y piel. Según esto
+                      las personas se pueden dividir en 4 Estaciones. Escoge el tuyo: </p>
+                  </div>
+    
+                  <section class="botones__container">
+                    <div class="row botonera-opciones">
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Otoño</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Invierno</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Primavera</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Verano</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>No aplica</p>
+                      </button>
+    
+                    </div>
+                  </section>
+    
+                  <div class="row">
+                    <div class="mx-auto"> <a href="#nav-cuerpo" class="tab-links"> <button type="button" class="btn btn-dark px-5 py-3 m-5 ir-cuerpo">
+                          Siguiente </button> </a> </div>
+                  </div>
+    
+                </div>
+    
+                <div class="tab-pane fade" id="nav-cuerpo" role="tabpanel" aria-labelledby="nav-cuerpo-tab">
+                  <div class="mt-5 mb-5">
+                    <h2 class="mb-3">Tipo de Cuerpo</h2>
+                    <p> Todos los cuerpos son diferentes y es importante recalcar que no existen cuerpos perfectos, ni
+                      mejores ni peores. La idea de identificar la forma de un cuerpo es para sacar lo mejor de cada uno,
+                      identificando lo bueno para resaltarlo y contrastar lo que no está tan bien para lograr mayor armonía
+                      entre todo. Selecciona una opción:
+    
+                    </p>
+                  </div>
+    
+                  <section>
+                    <div class="tipo-cuerpo__container">
+                      <div class="tipo--cuerpo--btn--container">
+                      <button type="button" class="btn tipo-cuerpo__btn">
+                        <img src="asset/img/torso-largo-01.png" alt="">
+                      </button>
+                      <p class="text-center">Torso Largo</p>
+                    </div>
+    
+                    <div class="tipo--cuerpo--btn--container">
+                      <button type="button" class="btn tipo-cuerpo__btn">
+                        <img src="asset/img/torso-chico-01.png" alt="">
+                      </button>
+                      <p class="text-center">Torso Corto</p>
+                    </div>
+    
+                    <div class="tipo--cuerpo--btn--container">
+                      <button type="button" class="btn tipo-cuerpo__btn">
+                        <img src="asset/img/circulo-ovalado-01.png" alt="">
+                      </button>
+                      <p class="text-center">Círculo/Ovalado</p>
+                    </div>
+    
+                    <div class="tipo--cuerpo--btn--container">
+                      <button type="button" class="btn tipo-cuerpo__btn">
+                        <img src="asset/img/rectangulo-01.png" alt="">
+                      </button>
+                      <p class="text-center">Rectángulo</p>
+                    </div>
+    
+                  </div>
+    
+                  <div class="tipo-cuerpo__container">
+                    <div class="tipo--cuerpo--btn--container">
+                      <button type="button" class="btn tipo-cuerpo__btn">
+                        <img src="asset/img/reloj-de-arena-01.png" alt="">
+                      </button>
+                      <p class="text-center">Reloj de Arena</p>
+                    </div>
+                
+    
+                    <div class="tipo--cuerpo--btn--container">
+                      <button type="button" class="btn tipo-cuerpo__btn">
+                        <img src="asset/img/triangulo-01.png" alt="">
+                      </button>
+                      <p class="text-center">Triángulo</p>
+                    </div>
+    
+                    <div class="tipo--cuerpo--btn--container">
+                      <button type="button" class="btn tipo-cuerpo__btn">
+                        <img src="asset/img/triangulo-invertido-01.png" alt="">
+                      </button>
+                      <p class="text-center">Triángulo Invertido</p>
+                    </div>
+    
+                    <div class="tipo--cuerpo--btn--container">
+                        <button type="button" class="btn tipo-cuerpo__btn">
+                          <img src="asset/img/torso-todo-tipo.png" alt="">
+                        </button>
+                        <p class="text-center">Todo Tipo</p>
+                      </div>                
+                  </div>
+    
+                    
+    
+                    <div class="row">
+                      <div class="mx-auto"> <a href="#nav-ocasion" class="tab-links"> <button type="button" class="btn btn-dark px-5 py-3 m-5 ir-ocasion">
+                          Siguiente </button> </a> 
+                        
+                    </div>
+                  </div>
+                </section>
+    
+    
+    
+    
+                </div>
+    
+                <div class="tab-pane fade" id="nav-ocasion" role="tabpanel" aria-labelledby="nav-ocasion-tab">
+    
+                  <div class="mt-5 mb-5">
+                    <h2 class="mb-3">Ocasión</h2>
+                    <p> La búsqueda de una prenda depende también para que ocasión estamos buscando. Selecciona la
+                      alternativa que más se acerque a lo que buscas:
+                    </p>
+                  </div>
+    
+                  <section class="botones__container">
+                    <div class="row botonera-opciones">
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Celebración Especial</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Trabajo de Oficina</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Juntas de amigos o familia </p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Outdoor</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p> Eventos </p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p> Tiempo libre </p>
+                      </button>
+    
+                    </div>
+                  </section>
+    
+    
+    
+                  <div class="row">
+    
+                    <div class="mx-auto"> <a href="#nav-actividad" class="tab-links"> <button type="button" class="btn btn-dark px-5 py-3 m-5 ir-actividad">
+                          Siguiente </button> </a> </div>
+    
+                  </div>
+    
+                </div>
+    
+                <div class="tab-pane fade" id="nav-actividad" role="tabpanel" aria-labelledby="nav-actividad-tab">
+                  <div class="mt-5 mb-5">
+                    <h2 class="mb-3"> Etapa </h2>
+                    <p>
+                      Nuestra etapa de la vida por supuesto que influye en la manera de vestirnos. Es totalmente diferente
+                      como nos vestimos a los 15, a los 30 o a los 50. También nos determina la etapa de la vida y
+                      nuestra actividad, si estamos estudiando, trabajando, si nuestro trabajo es más bien formal o más
+                      relajado; o si somos madres con niños pequeños o no. Por lo que también en este embudo puede ir:
+                    </p>
+                  </div>
+    
+                  <section class="botones__container">
+                    <div class="row botonera-opciones">
+                      <button type="button" class="btn btn-outline-dark">
+                        <p> Estudios Secundarios </p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p> Estudios Universitarios </p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p> Trabajo </p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>Estudio y Trabajo</p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p> Maternal </p>
+                      </button>
+    
+                      <button type="button" class="btn btn-outline-dark">
+                        <p>No es relevante</p>
+                      </button>
+    
+                    </div>
+                  </section>
+    
+    
+    
+                  <div class="row">
+                    <div class="mx-auto"> <a href="resultados.html"> <button type="button" class="btn btn-dark px-5 py-3 m-5">
+                          Buscar </button> </a> </div>
+                  </div>
+    
+    
+                </div>
+    
+    
+              </div>
+          </div>
+        </div>
+      </div></section>
+    
+    
+      <footer class="allegory-footer__container">
+        <div class="allegory-nav__links--right allegory-footer__link ">
+            <a href=""><i class="fab fa-linkedin-in "></i></a>
+            <a href=""><i class="fab fa-facebook-f "></i></a>
+            <a href=""><i class="fab fa-instagram "></i> </a>
+        </div>
+        <a class="allegory-footer__link" target="_blank" href="terminos.html">
+            Términos y condiciones
+        </a>
+        <!-- <a class="allegory-footer__link" target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe3Gk3yvOtl9loL_WiKQyFzF5SmtuOY21Q_OT4IRZ0IhSgZuA/viewform">
+            Déjanos tu feedback
+        </a> -->
+        <div>
+            <img class="allegory-footer__logo" src="asset/img/logo_footer-01.svg" alt="Logo Footer">
+        </div>
+    </footer>
+    
+    
+    
+      <!-- Separate Popper and Bootstrap JS -->
+    
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    
+     
+    
+    
+    
+    
+    
+    </body>
+    
+</body>
+</html>
+
+
+    
+
+
+  
+
+   

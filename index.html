@@ -5,10 +5,17 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;700&amp;display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-H9UmZdHwCu4FX/s/+fsZf54fLRDwLpJ6hBrtGc65TmZzS6x6MGO6lOp5Z1NYQplv3ju3LaL+EW4D+TwtGTR9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <title>Ecomercee</title>
   <link rel="stylesheet" href="asset/style.css" />
 </head>
@@ -18,247 +25,64 @@
 
 
 
-  <div class="navar box">
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><img class="logo" src="./asset/img/logooo.jpg" alt=""></a>
+  <nav class="navbar navbar-expand-lg navbar-light allegory-nav__container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse allegory-nav__links col-3" id="navbarNav">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="allegory-nav__links--left">
+        <a href="index.html">Inicio</a>
 
-        <form class="d-flex">
-          <div class="container-icon">
-            <div class="container-cart-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="icon-cart">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-              </svg>
-              <div class="count-products">
-                <span id="contador-productos">0</span>
-              </div>
-            </div>
-
-            <div class="container-cart-products hidden-cart">
-              <div class="row-product hidden">
-                <div class="cart-product">
-                  <div class="info-cart-product">
-                    <span class="cantidad-producto-carrito"></span>
-                    <p class="titulo-producto-carrito"></p>
-                    <span class="precio-producto-carrito"></span>
-                  </div>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="icon-close">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </div>
-              </div>
-
-              <div class="cart-total hidden">
-                <h3>Total:</h3>
-                <span class="total-pagar">$</span>
-              </div>
-              <p class="cart-empty">El carrito está vacío</p>
-            </div>
-          </div>
-        </form>
       </div>
-  </div>
+    </div>
+    <div class="col-6 allegory-nav__logo">
+      <a href="index.html"> <img src="./asset/img/Logo_nav-01.svg" alt=""> </a>
+    </div>
+    <div class="col-3">
+      <div class="text-right">
+        <a href=""> <button type="button" class="btn btn-calipso">
+            Suscríbete </button> </a>
+      </div>
+    </div>
   </nav>
 
 
-  <header>
+  </nav>
 
-    <div class="container-items">
+  <div class="allegory-hero__container">
+    <div class="allegory-hero__content">
+      <h1 class="allegory-hero__content--title">Allegory soluciona <br>el problema de comprar en tu <br>talla.</h1>
 
-      <div id="productos">
-        <div class="item producto">
-          <figure>
-            <img id="imagen1" src="" alt="">
-          </figure>
-          <div class="info-product">
-            <h2> Poleron negro</h2>
-            <h4>sku:234342</h4>
-            <p class="price">$30990</p>
-            <button type="submit" class="btn btn-info" data-open="modal1">Encuentra tu talla</button>
-            <button class="btn-add-cart">Añadir al carrito</button>
-          </div>
-        </div>
-      </div>
-      <div id="productos">
-        <div class="item producto">
-          <figure>
-            <img id="imagen2" src="" alt="">
-          </figure>
-          <div class="info-product">
-            <h2>Poleron DCshoes</h2>
-            <h4>sku:256982</h4>
-            <p class="price">$53990</p>
-            <button type="submit" class="btn btn-info" data-open="modal1">Encuentra tu talla</button>
-            <button class="btn-add-cart">Añadir al carrito</button>
-          </div>
-        </div>
-      </div>
-      <div id="productos">
-        <div class="item producto">
-          <figure>
-            <img id="imagen3" src="" alt="">
-          </figure>
-          <div class="info-product">
-            <h2>Poleron   Polo</h2>
-            <h4>sku:256021</h4>
-            <p class="price">$62990</p>
-            <button type="submit" class="btn btn-info" data-open="modal1">Encuentra tu talla</button>
-            <button class="btn-add-cart">Añadir al carrito</button>
-          </div>
-        </div>
-      </div>
-
-      <div id="productos">
-        <div class="item producto">
-          <figure>
-            <img id="imagen4" src="" alt="">
-          </figure>
-          <div class="info-product">
-            <h2>Poleron Okley</h2>
-            <h4>sku:298275</h4>
-            <p class="price">$55980</p>
-            <button type="submit" class="btn btn-info" data-open="modal1">Encuentra tu talla</button>
-            <button class="btn-add-cart">Añadir al carrito</button>
-          </div>
-        </div>
-      </div>
-
-
-
-
-      <div id="productos">
-        <div class="item producto">
-          <figure>
-            <img id="imagen5" src="" alt="" />
-          </figure>
-          <div class="info-product">
-            <h2>poleron Okley slim</h2>
-            <h4>sku:271980</h4>
-            <p class="price">$41990</p>
-            <button type="submit" class="btn btn-info" data-open="modal1">Encuentra tu talla</button>
-            <button class="btn-add-cart">Añadir al carrito</button>
-          </div>
-        </div>
-      </div>
-      <div id="productos">
-        <div class="item producto">
-          <figure>
-            <img id="imagen6" src="" alt="" />
-          </figure>
-          <div class="info-product">
-            <h2>poleron Lippi</h2>
-            <h4>sku:354760</h4>
-            <p class="price">$72000</p>
-            <button type="submit" class="btn btn-info " data-open="modal1">Encuentra tu talla</button>
-            <button class="btn-add-cart">Añadir al carrito</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </header>
-
-
-
-  <div class="contenedor-modal" id="modal1">
-    <div class="modal">
-      
-
-
-
-
-
-      <div class="modal" tabindex="-1">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Encuentra tu talla</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" id="btnCerrar"></button>
-            </div>
-            <form action="">
-            <div class="modal-body">
-              <label for="busto">Busto (cm):</label>
-              <input type="number" id="busto">
-              <br>
-              <label for="cintura">Cintura (cm):</label>
-              <input type="number" id="cintura">
-              <br>
-              <label for="cadera">Cadera (cm):</label>
-              <input type="number" id="cadera">
-              <br>
-
-              <p id="resultado"></p>
-             
-            </div>
-            <div class="modal-footer">
-             
-              <button onclick="obtenerTalla()">Enviar</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- <form class="row g-3 needs-validation" novalidate>
-        <div class="col-md-5">
-          <label for="busto">Busto (cm):</label>
-          <input type="number" id="busto">
-          <br> -->
-          <!-- <label for="peso" class="form-label">PESO</label>
-          <input type="number" class="form-control" id="peso" value="Kg" required /> -->
-          <!-- <div class="valid-feedback">
-          </div>
-        </div> -->
-
-        <!-- <div class="col-md-4">
-          <label for="cintura">Cintura (cm):</label>
-          <input type="number" id="cintura">
-          <br> -->
-          <!-- <label for="estatura" class="form-label">Estatura</label>
-          <input type="text" class="form-control" id="estatura" value="mt" required />
-          -->
-        <!-- </div> -->
-
-        <!-- <div class="col-md-4">
-          <label for="cadera">Cadera (cm):</label>
-          <input type="number" id="cadera">
-          <br> -->
-          <!-- <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-            <option selected>Sexo</option>
-            <option value="1">Hombre</option>
-            <option value="2">Mujer</option>
-
-          </select> -->
-        <!-- </div> -->
-
-        <!-- <div class="col-md-4">
-          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-            <option selected>Cuerpo</option>
-            <option value="1">Skinny</option>
-            <option value="2">Normal</option>
-            <option value="2">Holgado</option>
-
-          </select>
-        </div> -->
-
-
-        <!-- <p id="resultado"></p>
-
-
-        <div class="col-12">
-          <button  onclick="obtenerTalla()">Enviar</button>
-        </div>
-      </form> -->
+      <a href="./productos2.html">
+        <button class="allegory-hero__content--button">Ir al buscador &nbsp;&nbsp;<i
+            class="fas fa-arrow-right"></i></button>
+      </a>
     </div>
   </div>
+
+
+  <footer class="allegory-footer__container">
+    <div class="allegory-nav__links--right allegory-footer__link ">
+      <a href=""><i class="fab fa-linkedin-in "></i></a>
+      <a href=""><i class="fab fa-facebook-f "></i></a>
+      <a href=""><i class="fab fa-instagram "></i> </a>
+    </div>
+    <a class="allegory-footer__link" target="_blank" href="terminos.html">
+      Términos y condiciones
+    </a>
+    <!-- <a class="allegory-footer__link" target="_blank"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSe3Gk3yvOtl9loL_WiKQyFzF5SmtuOY21Q_OT4IRZ0IhSgZuA/viewform">
+      Déjanos tu feedback
+  </a> -->
+    <div>
+      <img class="allegory-footer__logo" src="./asset/img/Logo_footer-01.svg" alt="Logo Footer">
+    </div>
+  </footer>
+
+
+
 
 
 
