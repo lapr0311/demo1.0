@@ -5,10 +5,7 @@
     font-family: 'DM Sans', sans-serif;
 }
   
-  .navar .logo {
-    width: 150px;
-    height: auto;
-  }
+
  
   
 
@@ -19,9 +16,7 @@
     stroke: #000;
 }
 
-.icon-cart:hover{
-    cursor: pointer;
-}
+
 
 img{
     max-width: 100%;
