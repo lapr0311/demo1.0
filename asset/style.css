@@ -31,7 +31,7 @@ header{
 }
 
 .container-icon{
-    position: relative;
+    /* position: relative; */
 }
 
 .count-products{
@@ -55,7 +55,7 @@ header{
 }
 
 .container-cart-products{
-    position: absolute;
+    /* position: absolute;
     top: 50px;
     right: 0;
 
@@ -64,7 +64,7 @@ header{
     z-index: 1;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
     border-radius: 10px;
-    
+     */
 }
 
 .cart-product{
