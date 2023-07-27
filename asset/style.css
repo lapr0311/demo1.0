@@ -30,9 +30,7 @@ header{
     margin-left: 70px;
 }
 
-.container-icon{
-    /* position: relative; */
-}
+
 
 .count-products{
     position: absolute;
@@ -54,18 +52,7 @@ header{
     font-size: 12px;
 }
 
-.container-cart-products{
-    /* position: absolute;
-    top: 50px;
-    right: 0;
 
-    background-color: #fff;
-    width: 400px;
-    z-index: 1;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-    border-radius: 10px;
-     */
-}
 
 .cart-product{
     display: flex;
@@ -258,6 +245,8 @@ header{
 
 :root{
     --color-acento: #8CD7D7;
+
+    /* #8CD7D7 #45ffff */
 }
 
 /*------ Estilos Nav ------*/
